@@ -27,6 +27,7 @@ body
     position: relative
     height: 835px
     margin-bottom: 60px
+    overflow: hidden
     &__nav-container
         padding-top: 34px
     &__cake-picture
@@ -35,11 +36,12 @@ body
     &__content-container
         display: flex
         justify-content: flex-end
+        position: relative
     &__circle1
         position: absolute
-        width: 850px
-        height: 850px
-        right: -120px
+        width: 880px
+        height: 880px
+        right: -286px
         top: -265px
         z-index: -1
 
@@ -75,7 +77,7 @@ body
     &__text
         font-size: 28px
         padding-top: 40px
-        margin-bottom: 80px
+        margin-bottom: 60px
         font-family: Montserrat
         line-height: 116.9%
     &__buttons
@@ -110,10 +112,10 @@ body
             font-family: Pacifico
     &__circle2
         position: absolute
-        width: 950px
-        height: 950px
-        left: -90px
-        top: 790px
+        width: 900px
+        height: 900px
+        left: -185px
+        top: -90px
         z-index: -2
     &__photo
         position: absolute
@@ -162,10 +164,11 @@ body
     position: relative
     &__circle3
         position: absolute
-        left: 808px
+        right: -188px
         top: -50px
         z-index: -2
     &__content-container
+        position: relative
         h3
             font-size: 62px
             margin-bottom: 70px
@@ -216,13 +219,14 @@ body
         background-color: transparent
 
 .footer
-    position: relative
+    &__container
+        min-height: 500px
+        position: relative
     &__img
         position: absolute
-        left: 798px
-        bottom: -100px
+        right: -188px
+        bottom: 0px
     &__wrapper
-        max-height: 400px
         align-content: center
     &__headline
         padding-left: 100px
